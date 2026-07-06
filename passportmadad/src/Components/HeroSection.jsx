@@ -7,8 +7,8 @@ const img ={
 }
 
 const pic = {
-    en: '/src/assets/english.png',
-    hi: '/src/assets/hindi.png'
+    en: '/assets/english.png',
+    hi: '/assets/hindi.png'
 }
 
 function HeroSection() {

@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install --prefix passportmadad",
+  "buildCommand": "npm run build --prefix passportmadad",
+  "outputDirectory": "passportmadad/dist"
+}

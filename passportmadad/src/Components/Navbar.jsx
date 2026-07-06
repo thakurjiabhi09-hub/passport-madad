@@ -13,7 +13,7 @@ function Navbar() {
       
       {/* Logo */}
 <div className="text-yellow-400 font-extrabold text-3xl tracking-widest drop-shadow-lg italic font-sans flex items-center">
-  <img src="/src/assets/airplane.png" alt="" className="w-15 h-15 mr-4" />
+  <img src="/assets/airplane.png" alt="" className="w-15 h-15 mr-4" />
   {content[language]}
 </div>
 
