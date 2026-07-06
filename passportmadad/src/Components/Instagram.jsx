@@ -4,7 +4,7 @@ function Instagram() {
   const { language } = useLangauge()
 
   return (
-<div className=" bg-gradient-to-r from-olive-700 to-olive-900 flex justify-center px-6 py-10">
+<div className="bg-gradient-to-r from-olive-700 to-olive-900 flex flex-col md:flex-row justify-center items-center gap-6 px-4 sm:px-6 lg:px-10 py-10">
  <div className="flex justify-center px-6 py-10">
       
       <div className="bg-pink-50 border border-pink-200 rounded-2xl px-10 py-8 text-center max-w-sm w-full">
@@ -24,13 +24,30 @@ function Instagram() {
         <p className="text-2xl font-extrabold text-pink-600 mb-6">₹99/-</p>
 
         
-         <a href="https://www.instagram.com/passport_madad_45/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-gradient-to-r from-pink-500 to-orange-400 text-white font-bold px-8 py-3 rounded-full text-sm hover:opacity-90 transition"
-        >
-          {language === 'hi' ? '📩 इंस्टाग्राम  पर संदेश करें' : '📩 Message on Instagram'}
-        </a>
+        <a
+  href="https://www.instagram.com/passport_madad_45/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    inline-flex items-center justify-center
+    w-full sm:w-auto
+    px-5 sm:px-10
+    py-3
+    text-sm sm:text-base
+    font-bold
+    text-center
+    rounded-full
+    bg-gradient-to-r from-pink-500 to-orange-400
+    text-white
+    hover:opacity-90
+    transition
+    break-words
+  "
+>
+  {language === "hi"
+    ? "📩 इंस्टाग्राम पर संदेश करें"
+    : "📩 Message on Instagram"}
+</a>
 
       </div>
       
@@ -57,8 +74,21 @@ function Instagram() {
         
          <a href="https://www.facebook.com/Passportmadad45/"
           target="_blank"
-          rel="noopener noreferrer"
-          className="bg-gradient-to-r from-blue-900 to-blue-400 text-white font-bold px-8 py-3 rounded-full text-sm hover:opacity-90 transition"
+  rel="noopener noreferrer"
+  className="
+    inline-flex items-center justify-center
+    w-full sm:w-auto
+    px-5 sm:px-10
+    py-3
+    text-sm sm:text-base
+    font-bold
+    text-center
+    rounded-full
+    bg-gradient-to-r from-pink-500 to-orange-400
+    text-white
+    hover:opacity-90
+    transition
+    break-words"
         >
           {language === 'hi' ? '📩 फेसबुक पर संदेश करें' : '📩 Message on Facebook'}
         </a>

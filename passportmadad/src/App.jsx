@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <LangaugeProvider>
-      <div className='animated-bg'>
+      <div className="animated-bg w-full overflow-x-hidden">
            <Discalmer/>
          <Navbar/>
          <HeroSection/>
