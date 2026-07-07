@@ -15,9 +15,7 @@ function Navbar() {
       {/* Logo */}
       <div className="flex items-center flex-shrink-0">
         <img
-          src={airplane}
-          alt=""
-          className="w-10 h-10 sm:w-14 sm:h-14 mr-2 sm:mr-4"
+          src="/src/assets/airplane.png" alt="" className="w-15 h-15 mr-4"
         />
 
         <h1 className="text-yellow-400 font-extrabold italic
