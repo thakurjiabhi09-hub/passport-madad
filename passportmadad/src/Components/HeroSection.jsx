@@ -10,8 +10,8 @@ const img = {
 };
 
 const pic = {
-  en: '/src/assets/english.png',
-  hi: '/src/assets/hindi.png'
+  en: englishIm,
+  hi: hindiImg
 };
 
 function HeroSection() {
