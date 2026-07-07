@@ -1,4 +1,4 @@
-import TrustSection from './Components/Trustsection'
+import TrustSection from './Components/TrustSection'
 import Discalmer from './Components/Discalmer'
 import HeroSection from './Components/HeroSection'
 import Navbar from './Components/Navbar'
