@@ -10,7 +10,7 @@ const img = {
 };
 
 const pic = {
-  en: englishIm,
+  en: englishImg,
   hi: hindiImg
 };
 
